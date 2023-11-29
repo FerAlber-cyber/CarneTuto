@@ -6,4 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".Splash">
 
+    <ImageView
+        android:id="@+id/logo_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Logo"
+        android:scaleY=".5"
+        android:scaleX=".5"
+        android:transitionName="logo_trans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
